@@ -3,9 +3,9 @@
   <div class="container">
 
     <div class="left">
-      <div class="photo">
+      <!-- <div class="photo">
         <img src="@/assets/my_photo.jpg" alt="" class="img" />
-      </div>
+      </div> -->
 
       <div class="name">
         <div class="fname">Литвиновський Володимир</div>

@@ -1,9 +1,10 @@
 <template>
   <div class="container">
     <div class="left">
-      <div class="photo">
+      <!-- <div class="photo">
         <img src="@/assets/my_photo.jpg" alt="" class="img" />
-      </div>
+        https://github.com/webdev1881/rezume-no-photo.git
+      </div> -->
 
       <div class="name">
         <div class="fname">Litvinovsky Volodymyr</div>
