@@ -4,13 +4,12 @@ import router from './router'
 import * as firebase from "firebase/app"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAnNtkKHoxhlQ13UiWvCGy33Nzo42yZ_Us",
-  authDomain: "rezume-2024-lv.firebaseapp.com",
-  projectId: "rezume-2024-lv",
-  storageBucket: "rezume-2024-lv.appspot.com",
-  messagingSenderId: "490173535908",
-  appId: "1:490173535908:web:edce5b2a70748a47123831",
-  measurementId: "G-H73SNHYW1B"
+  apiKey: "AIzaSyCsHxmbcm1Zg_w5EV7RuOsCxCUxLmgG13w",
+  authDomain: "volodymyr-litvinovsky.firebaseapp.com",
+  projectId: "volodymyr-litvinovsky",
+  storageBucket: "volodymyr-litvinovsky.appspot.com",
+  messagingSenderId: "743670319049",
+  appId: "1:743670319049:web:d3e887c46c38ba34fdca18"
 }
 firebase.initializeApp(firebaseConfig);
 

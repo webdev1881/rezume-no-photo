@@ -1,15 +1,9 @@
 <template>
-
-  
-  
   <div class="container">
-
-  
-    
     <div class="left">
-      <!-- <div class="photo">
+      <div class="photo">
         <img src="@/assets/my_photo.jpg" alt="" class="img" />
-      </div> -->
+      </div>
 
       <div class="name">
         <div class="fname">Litvinovsky Volodymyr</div>
@@ -24,16 +18,17 @@
         <div class="content">
           <div class="personal">
             <div class="inf">
-              Adress: 
-              <div class="val"> Ukrain, Kiyv</div>
+              Adress:
+              <div class="val">Ukrain, Kiyv</div>
             </div>
-            
-            <div class="inf">English level:
+
+            <div class="inf">
+              English level:
               <div class="val">Intermediate</div>
             </div>
             <div class="inf">
-              Experience: 
-              <div class="val"> 6 years</div>
+              Experience:
+              <div class="val">6 years</div>
             </div>
           </div>
         </div>
@@ -66,11 +61,29 @@
       </div>
 
       <div class="social">
-        <a target="_blank" href="https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D0%BB%D0%B8%D1%82%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9-695b01308/"><img src="@/assets/l5.png" style="width:41px;height:41px;margin-top:3px;background-color: white;border-radius: 3px;"></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D0%BB%D0%B8%D1%82%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9-695b01308/"
+          ><img
+            src="@/assets/l5.png"
+            style="
+              width: 41px;
+              height: 41px;
+              margin-top: 3px;
+              background-color: white;
+              border-radius: 3px;
+            "
+        /></a>
 
-        <a target="_blank" href="https://www.facebook.com/litvinovskiyv/"><div class="img"></div></a>
+        <a target="_blank" href="https://www.facebook.com/litvinovskiyv/"
+          ><div class="img"></div
+        ></a>
 
-        <a target="_blank" href="https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D0%BB%D0%B8%D1%82%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9-695b01308/"><div class="img2"></div></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D0%BB%D0%B8%D1%82%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9-695b01308/"
+          ><div class="img2"></div
+        ></a>
 
         <!-- <div class="img"></div>
         <div class="img2"></div> -->
@@ -79,7 +92,6 @@
     </div>
 
     <div class="right">
-
       <div class="leng_wrap">
         <div class="lang">
           <router-link class="en" to="/">EN</router-link>
@@ -88,22 +100,22 @@
         </div>
       </div>
 
-
       <div class="edu">
         <div class="title">Experience</div>
         <div class="college">
           <div class="year">2015 - 2017</div>
           <div class="name">Y-Contract</div>
           <div class="func">
-            Design a responsive layout for the website, optimization and expansion of code functionality, Single Page Applications
+            Design a responsive layout for the website, optimization and
+            expansion of code functionality, Single Page Applications
           </div>
         </div>
         <div class="college">
           <div class="year">2017 - 2020</div>
           <div class="name">Invest-Сom</div>
           <div class="func">
-            Development applications and services. Participate in
-            the development of the CRM system
+            Development applications and services. Participate in the
+            development of the CRM system
           </div>
         </div>
         <div class="college">
@@ -162,11 +174,10 @@
           <div class="item">
             <div class="title">React.js</div>
             <div class="line">
-              <div class="progress" style="width: 75%;"></div>
+              <div class="progress" style="width: 75%"></div>
             </div>
             <div class="pers">75%</div>
           </div>
-
         </div>
       </div>
 
@@ -210,27 +221,52 @@
 
       <div class="portfolio">
         <div class="title">Приклади портфоліо</div>
-        <li><a target="_blank" href="https://ergo-ua.com/ua/products/tvs/">Телевізори та аксесуари</a></li>
+        <li>
+          <a target="_blank" href="https://ergo-ua.com/ua/products/tvs/"
+            >Телевізори та аксесуари</a
+          >
+        </li>
 
         <!-- <li><a target="_blank" href="https://yug-gfk.firebaseapp.com/">Інформаційна панель графіків TV (пароль 0099)</a></li>    -->
 
         <li>
-          <a target="_blank" href="http://cabinet.marketplace.ent.ukrgas.com.ua/login?redirect=%2Fdashboard">Дашборд маркетплейс (waiting production)</a>
-          <router-link class="ex1" :to="{ name: 'ex1'}" target="_blank">Example 1</router-link>
-          <router-link class="ex1" :to="{ name: 'ex2'}" target="_blank">Example 2</router-link>
-          <router-link class="ex1" :to="{ name: 'ex3'}" target="_blank">Example 3</router-link>
+          <a
+            target="_blank"
+            href="http://cabinet.marketplace.ent.ukrgas.com.ua/login?redirect=%2Fdashboard"
+            >Дашборд маркетплейс (waiting production)</a
+          >
+          <router-link class="ex1" :to="{ name: 'ex1' }" target="_blank"
+            >Example 1</router-link
+          >
+          <router-link class="ex1" :to="{ name: 'ex2' }" target="_blank"
+            >Example 2</router-link
+          >
+          <router-link class="ex1" :to="{ name: 'ex3' }" target="_blank"
+            >Example 3</router-link
+          >
         </li>
 
         <li>
-          <a target="_blank" href="http://marketplace.ent.ukrgas.com.ua/">Маркет 104  (waiting production)</a>
-          <router-link class="ex1" :to="{ name: 'exm'}" target="_blank">Example 1</router-link>
+          <a target="_blank" href="http://marketplace.ent.ukrgas.com.ua/"
+            >Маркет 104 (waiting production)</a
+          >
+          <router-link class="ex1" :to="{ name: 'exm' }" target="_blank"
+            >Example 1</router-link
+          >
         </li>
 
-        <li><a target="_blank" href="https://yug-gfk.firebaseapp.com/">Інформаційна панель графіків TV (пароль 0099)</a></li>
+        <li>
+          <a target="_blank" href="https://yug-gfk.firebaseapp.com/"
+            >Інформаційна панель графіків TV (пароль 0099)</a
+          >
+        </li>
 
-        <li><a target="_blank" href="https://excelcourse1881.web.app//">SPA - Excel</a></li>
+        <li>
+          <a target="_blank" href="https://excelcourse1881.web.app//"
+            >SPA - Excel</a
+          >
+        </li>
       </div>
-
     </div>
   </div>
 </template>
@@ -539,7 +575,4 @@ export default {
 .ex1 {
   margin-left: 10px;
 }
-
-
-
 </style>
