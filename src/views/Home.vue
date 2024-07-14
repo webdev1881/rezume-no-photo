@@ -221,10 +221,10 @@
       </div>
 
       <div class="portfolio">
-        <div class="title">Приклади портфоліо</div>
+        <div class="title">Examples of Portfolio</div>
         <li>
           <a target="_blank" href="https://ergo-ua.com/ua/products/tvs/"
-            >Телевізори та аксесуари</a
+            >Televisions and Accessories</a
           >
         </li>
 
@@ -234,7 +234,7 @@
           <a
             target="_blank"
             href="http://cabinet.marketplace.ent.ukrgas.com.ua/login?redirect=%2Fdashboard"
-            >Дашборд маркетплейс (waiting production)</a
+            >Dashboard Marketplace (waiting production)</a
           >
           <router-link class="ex1" :to="{ name: 'ex1' }" target="_blank"
             >Example 1</router-link
@@ -249,7 +249,7 @@
 
         <li>
           <a target="_blank" href="http://marketplace.ent.ukrgas.com.ua/"
-            >Маркет 104 (waiting production)</a
+            >Market 104 (waiting production)</a
           >
           <router-link class="ex1" :to="{ name: 'exm' }" target="_blank"
             >Example 1</router-link
@@ -257,14 +257,8 @@
         </li>
 
         <li>
-          <a target="_blank" href="https://yug-gfk.firebaseapp.com/"
-            >Інформаційна панель графіків TV (пароль 0099)</a
-          >
-        </li>
-
-        <li>
           <a target="_blank" href="https://excelcourse1881.web.app//"
-            >SPA - Excel</a
+            >Landing - business presentations</a
           >
         </li>
       </div>
